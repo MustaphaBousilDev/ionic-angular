@@ -1,12 +1,13 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Angular Ionic Refreshers
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <p>{{text}}</p>
-  <ion-button (click)="onChangeText()">Click me</ion-button>
+  <ion-button (click)="onChangeText()">Click on this Button</ion-button>
+  <app-persons [personList]="persons"></app-persons>
 </ion-content>

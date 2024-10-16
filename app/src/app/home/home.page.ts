@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
   text ='Default Text'
+  persons: string[] = ['Mugiwara','Zoro','Sanji']
   constructor() {}
 
   onChangeText(){
