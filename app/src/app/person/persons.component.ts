@@ -4,4 +4,6 @@ import { Component } from "@angular/core";
     selector: 'app-persons',
     templateUrl: './persons.component.html'
 })
-export class PersonsComponent {}
+export class PersonsComponent {
+    personList: string[]=[];
+}
